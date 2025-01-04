@@ -1,0 +1,50 @@
+*{margin: 0}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: grey;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 120vh;
+    padding: 3vh;
+    gap: 3vh;
+}
+
+h1, h2, h3 {
+    font-weight: lighter;
+    font-size: 8vh;
+}
+
+.widgets_list h3 {
+    font-size: 4vh;
+}
+
+.widget {
+    height: 50vh;
+    background: darkblue;
+    color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widgets_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3vh;
+}
+
+.widget_in_list {
+    padding: 2vh;
+    flex: 1;
+}
+
+.contact {
+    height: 100vh;
+}

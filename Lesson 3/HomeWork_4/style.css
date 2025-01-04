@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+/*--------------------------------------------------HOME PAGE-------------------------------------------------*/
+/*------------------------header------------------------*/
+.active-link {
+    color: rgb(14, 36, 14);
+    border-bottom: 1px solid rgb(14, 36, 14);
+}
+
+header {
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Orbitron", sans-serif;
+}
+
+header div {
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: grey;
+}
+
+
+/*-------------------------main-------------------------*/
+
+.home-main-section {
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 20vh;
+    box-sizing: border-box;
+}
+
+.home-main-section p {
+    font-size: 18px;
+}
+
+.home-main-section h1 {
+    font-size: 100px;
+    letter-spacing: 40px;
+}
+
+main .button,
+section .button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    background: #000;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+main .button:hover,
+section .button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*-------------------------section-------------------------*/
+
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Orbitron", sans-serif;
+    justify-content: center;
+}
+
+#about .information {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 6vh 4vh 20%;
+    gap: 8vh;
+}
+
+#about .information p {
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+}
+
+#about .image {
+    width: 50%;
+    background-image: url("https://static.wixstatic.com/media/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg/v1/fill/w_952,h_716,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_e7959a5be116482b9727a9be900d2d35~mv2_d_5454_3840_s_4_2.jpg");
+    background-size: cover;
+}
+
+/*-------------------------footer-------------------------*/
+
+footer {
+    background: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    padding: 10vh 20%;
+    gap: 20px;
+}
+
+footer .title h1 {
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+}
+
+footer .information {
+    display: flex;
+    justify-content: space-between;
+}
+footer .information .address,
+footer .information .numbers,
+footer .information .social_media {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+footer .information .social_media ul {
+    display: flex;
+    gap: 6px;
+}
+footer .information .social_media .icon {
+    width: 28px;
+    height: 28px;
+    background-size: cover;
+    transition: 0.5s;
+}
+footer .information .social_media .icon:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+footer .information .social_media .youtube {
+    background-image: url("https://img.icons8.com/?size=100&id=25654&format=png&color=1A1A1A");
+}
+footer .information .social_media .facebook {
+    background-image: url("https://img.icons8.com/?size=100&id=118468&format=png&color=1A1A1A");
+}
+
+footer .information .social_media .instagram {
+    background-image: url("https://img.icons8.com/?size=100&id=32292&format=png&color=1A1A1A");
+}
+footer .information .social_media .linkedin {
+    background-image: url("https://img.icons8.com/?size=100&id=447&format=png&color=1A1A1A");
+}
+
+/*-------------------------------------------------SERVICE PAGE-------------------------------------------------*/
+.service_main_section {
+    background-image: url("https://images.unsplash.com/photo-1486707471592-8e7eb7e36f78?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+.service_main_section .service {
+    margin: 40px 0;
+    min-height: 90%;
+    width: 64%;
+}
+
+.service_main_section .service h2 {
+    letter-spacing: 3px;
+    font-size: 2em ;
+    margin: 0 0 20px;
+}
+
+.service_main_section .service .service_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.service_main_section .service .service_cards .service_card {
+    background: white;
+    height: 340px;
+    width: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    gap: 10px;
+}
+.service_main_section .service .service_cards .service_card p {
+    font-family: Inter, sans-serif;
+}
+.service_main_section .service .service_cards .service_card h2 {
+    font-size: 1.2em;
+}
+
+/*-------------------------------------------------BLOG PAGE-------------------------------------------------*/
+
+.blog_main_section {
+    background-image: url("https://images.unsplash.com/photo-1491555256969-8eae57512c17?q=80&w=1794&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 90vh;
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.blog_main_section .blog {
+    margin: 40px 0;
+    min-height: 90%;
+    width: 64%;
+}
+
+.blog_main_section .blog h2 {
+    width: 320px;
+    letter-spacing: 3px;
+    font-size: 2em ;
+    margin: 0 0 20px;
+}
+
+.blog_main_section .blog .blog_information {
+    font-family: Inter, sans-serif;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    min-height: 64vh;
+
+}

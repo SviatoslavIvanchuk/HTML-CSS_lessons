@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12vh;
+}
+
+.bg_color_lightcoral {background: lightcoral}
+.bg_color_lightskyblue {background: lightskyblue}
+.bg_color_lightgreen {background: lightgreen}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+
+}
+
+.container h1,
+.container p {
+    font-size: 1.1em;
+    text-align: center;
+}
+.container h1 {
+    font-size: 2em;
+}
+
+.arrow_up, .arrow_down {
+    width: 8vh;
+    height: 8vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.arrow_up {
+    background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/up-arrow-icon.png");
+}
+
+.arrow_down {
+    background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/arrow-direction/up-arrow-icon.png");
+    transform: rotate(180deg);
+}
+

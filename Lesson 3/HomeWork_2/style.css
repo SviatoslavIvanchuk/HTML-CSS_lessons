@@ -1,0 +1,35 @@
+*{margin: 0}
+
+header, footer {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    background: lightpink;
+    color: black;
+}
+
+footer {
+    background: black;
+    color: snow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    width: 90vw;
+}
+
+h1, p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 2em;
+}
