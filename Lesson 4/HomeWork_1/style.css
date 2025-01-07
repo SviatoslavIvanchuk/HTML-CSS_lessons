@@ -259,13 +259,15 @@ header button{
     letter-spacing: -0.5px;
 }
 
-    /*-------------------------------------------------------PRODUCTS PLANS--------------------------*/
+/*----------------------------------------------------------PRODUCTS PLANS-----------------------------*/
 
 .products-plans {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
+
+/*----------------HEADER------------*/
 
 .products-plans header {
     display: flex;
@@ -321,6 +323,8 @@ header button{
     border-radius: 0 10px 10px 0;
     color: #FFF;
 }
+
+/*----------------PLANS CARDS------------*/
 
 .products-plans .plans-cards {
     display: flex;
