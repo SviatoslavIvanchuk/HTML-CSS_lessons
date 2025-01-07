@@ -34,7 +34,6 @@ footer {background: #BDBDBD;}
 
 main {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     min-height: 60vh;
 }
