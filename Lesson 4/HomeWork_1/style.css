@@ -359,7 +359,7 @@ header button{
     letter-spacing: -0.563px;
 }
 
-.products-plans .plans-cards .card h2 {
+.products-plans .plans-cards .card h2 .price {
     box-sizing: border-box;
     color: #1D293F;
     font-size: 60px;
@@ -368,7 +368,8 @@ header button{
     letter-spacing: -1.034px;
     margin: 22px 0 28px;
 }
-.products-plans .plans-cards .card h2 span {
+
+.products-plans .plans-cards .card h2 .period {
     font-family: "DM Sans", sans-serif;
     font-size: 28px;
     font-style: normal;
@@ -418,7 +419,8 @@ header button{
 .products-plans .plans-cards .card:hover > h5 {
     color: rgba(255, 255, 255, 0.70);
 }
-.products-plans .plans-cards .card:hover > h2,
+.products-plans .plans-cards .card:hover > h2 .price,
+.products-plans .plans-cards .card:hover > h2 .period,
 .products-plans .plans-cards .card:hover > .services,
 .products-plans .plans-cards .card:hover > button {
     color: #FFF;
