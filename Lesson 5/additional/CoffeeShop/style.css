@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #010103;
+    overflow-x: hidden;
+}
+
+.w-1200 {
+    width: 1200px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------FONTS------------*/
+
+.font-Inter-60 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.button-font {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*--------------------------------------------------HEADER----------------------------------*/
+
+header {
+    width: 100vw;
+    height: 131px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.70);
+    background: #000;
+}
+
+header .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*-----------------NAVIGATE MENU----------*/
+header .header-wrap nav ul {
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-between;
+}
+
+header .header-wrap nav a {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*-----------------ACTION BAR----------*/
+header .header-wrap .action-bar {
+    width: 74px;
+    gap: 30px;
+}
+
+header .header-wrap .action-bar svg {
+    stroke-width: 1px;
+    stroke: #000;
+}
+
+
+/*--------------------------------------------------MAIN----------------------------------*/
+main {
+    width: 100vw;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/*---------------------------TITLE-------------------*/
+main .title-bg {
+    background-image: url("images/bg-title.png");
+    height: 664px;
+    width: 1512px;
+}
+
+main .title-bg .title-info {
+    height: 100%;
+    width: 1200px;
+}
+
+main .title-bg .title-info h1 {
+    width: 607px;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    margin: 138px 0 10px;
+}
+
+main .title-bg .title-info p {
+    width: 607px;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+main .title-bg .title-info button {
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: #D3AD7F;
+    margin: 30px 0 0;
+}
+
+/*---------------------------ABOUT US-------------------*/
+main .about-us {
+    height: 625px;
+    width: 1200px;
+    flex-direction: column;
+}
+
+main .about-us h2 {
+    margin: 0 auto 50px;
+}
+
+main .about-us h2 span {
+    color: #D3AD7F;
+}
+
+main .about-us .content {
+    background: #13131A;
+    width: 100%;
+    height: 496px;
+    display: flex;
+}
+
+main .about-us .content img {
+    display: block;
+}
+
+main .about-us .content .info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 64px 0 0 32px;
+}
+
+main .about-us .content .info h3 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+main .about-us .content .info p {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .about-us .content .info button {
+    width: 167px;
+    padding: 10px 0;
+    border-radius: 8px;
+    background: #D3AD7F;
+}
+
+/*---------------------------OUR MENU-------------------*/
+
+main .our-menu {
+    height: 873px;
+    width: 1200px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main .our-menu h2 span {
+    color: #D3AD7F;
+}
+
+main .our-menu .content {
+    flex-wrap: wrap;
+    row-gap: 51px;
+    column-gap: 36px;
+}
+
+main .our-menu .content .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 372px;
+    height: 349px;
+    padding: 49px 96px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+}
+main .our-menu .content .card img {
+    display: block;
+}
+
+main .our-menu .content .card h4 {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0 15px;
+}
+
+main .our-menu .content .card p {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main .our-menu .content .card p span {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration-line: line-through;
+}
+
+main .our-menu .content .card button {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 8px;
+    background: #D3AD7F;
+    margin: 15px 0 0;
+}
+
+/*---------------------------LATEST PRODUCTS------------*/
+
+main .latest-product {
+    flex-direction: column;
+    height: 664px;
+    width: 1200px;
+    gap: 50px;
+}
+
+main .latest-product h2 span {
+    color: #D3AD7F;
+}
+
+main .latest-product .content {
+    gap: 35px;
+}
+
+main .latest-product .content .card {
+    width: 376px;
+    height: 541px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    padding: 30px 90px 0;
+}
+main .latest-product .content .card ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+main .latest-product .content .card ul a {
+    display: inline-flex;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+}
+
+main .latest-product .content .card img {
+    display: block;
+    margin: 50px 0 30px;
+}
+
+main .latest-product .content .card h4 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+main .latest-product .content .card .stars {
+    width: 100px;
+    height: 22px;
+    background-image: url("images/stars.png");
+}
+
+main .latest-product .content .card p {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0 15px;
+}
+
+main .latest-product .content .card p span {
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+
+/*---------------------------CUSTOMER'S REVIEW----------*/
+
+main .customers-review {
+    height: 612px;
+    width: 1200px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main .customers-review h2 span {
+    color: #D3AD7F;
+}
+
+main .customers-review .content {
+    gap: 35px;
+}
+
+main .customers-review .content .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 376px;
+    height: 489px;
+    padding: 30px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+}
+
+main .customers-review .content .card p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px auto 30px;
+}
+
+main .customers-review .content .card h4 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px auto 15px;
+}
+
+main .customers-review .content .card .stars {
+    width: 100px;
+    height: 22px;
+    background-image: url("images/stars.png");
+}
+
+/*---------------------------CONTACT US-----------------*/
+main .contact-us {
+    height: 620px;
+    width: 1200px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main .contact-us h2 span {
+    color: #D3AD7F;
+}
+
+/*---------------------------OUR BLOGS------------------*/
+
+main .our-blogs {
+    height: 601px;
+    width: 1200px;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 43px;
+}
+
+main .our-blogs h2 span {
+    color: #D3AD7F;
+}
+
+main .our-blogs .content {
+    gap: 32px;
+}
+
+main .our-blogs .content .card {
+    width: 376px;
+    height: 478px;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .our-blogs .content .card img {
+    width: 100%;
+}
+
+main .our-blogs .content .card .info {
+    margin: 0 19px 0;
+}
+
+main .our-blogs .content .card .info h3 {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main .our-blogs .content .card .info h4 {
+    color: #D3AD7F;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 0 9px;
+}
+
+main .our-blogs .content .card .info p {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main .our-blogs .content .card .info button {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #D3AD7F;
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------FOOTER----------------------------------*/
+
+footer {
+    width: 100vw;
+    background: #13131A;
+    flex-direction: column;
+}
+
+/*-----------------SOCIAL MEDIA ICONS----------*/
+footer .footer-wrap .social-media-icons {
+    margin: 30px auto 50px;
+}
+
+footer .footer-wrap .social-media-icons ul {
+    list-style-type: none;
+    gap: 15px;
+}
+
+footer .footer-wrap .social-media-icons ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+
+footer .footer-wrap .social-media-icons ul li a {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+footer .footer-wrap .social-media-icons ul li a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*-----------------NAVIGATE MENU----------*/
+footer .footer-wrap nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+
+footer .footer-wrap nav ul li {
+    display: inline-flex;
+    padding: 7px 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.70);
+}
+
+footer .footer-wrap nav ul li a {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/*-----------------CREATED BY----------*/
+footer .footer-wrap h4 {
+    margin: 25px auto 18px;
+    text-align: center;
+
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer .footer-wrap h4 span {
+    color: #D3AD7F;
+}

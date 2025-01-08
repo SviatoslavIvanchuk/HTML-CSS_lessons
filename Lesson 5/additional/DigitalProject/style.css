@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #FFF;
+    overflow-x: hidden;
+}
+
+.w-1170 {
+    width: 1170px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------------------------------HEADER----------------------------------------*/
+
+header {
+    width: 100vw;
+    height: 102px;
+    background: #FAFAFA;
+}
+
+header .header-wrap {
+    justify-content: space-between;
+}
+
+header .header-wrap nav {
+    margin-right: 64px;
+}
+
+header .header-wrap .logo {
+    flex-direction: column;
+}
+header .header-wrap .logo svg {
+    display: block;
+}
+
+header .header-wrap nav ul {
+    display: flex;
+    gap: 64px;
+    list-style-type: none;
+}
+
+header .header-wrap nav ul a {
+    color: #333;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/*--------------------------------------------------MAIN----------------------------------------*/
+
+main {
+    flex-direction: column;
+}
+
+/*---------------------TITLE BLOCK------------------*/
+
+main .title-block {
+    margin: 77px auto 31px;
+    justify-content: start;
+    gap: 66px;
+}
+
+main .title-block .title h1 {
+    color: #BDBDBD;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+}
+
+main .title-block .title h2 {
+    color: #333;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px; /* 100% */
+}
+
+main .title-block .title img {
+    display: block;
+}
+
+/*---------------------ABOUT BLOCK------------------*/
+
+main .about-block {
+    width: 100vw;
+    height: 492px;
+    background: #FBFBFB;
+    margin-bottom: 108px;
+}
+
+main .about-block .info {
+    height: 343px;
+    gap: 87px;
+}
+main .about-block .info img {
+    display: block;
+}
+
+main .about-block .info .introduction h2 {
+    color: #BDBDBD;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+    margin-bottom: 70px;
+}
+
+main .about-block .info .introduction p {
+    width: 400px;
+    height: 200px;
+
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px; /* 156.25% */
+}
+
+/*---------------------FOCUS-MISSION BLOCK------------------*/
+
+main .focus-mission-block {
+    /*height: 268px;*/
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 120px;
+}
+
+main .focus-mission-block h2 {
+    color: #BDBDBD;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+    margin-bottom: 62px;
+}
+
+main .focus-mission-block .focus-list {
+    width: 100%;
+    justify-content: space-between;
+}
+
+main .focus-mission-block .focus-list .focus-mission {
+    gap: 30px;
+}
+
+main .focus-mission-block .focus-list .focus-mission .number {
+    width: 104px;
+    height: 150px;
+    flex-direction: column;
+
+    color: #F2F2F2;
+    font-family: Roboto, sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+main .focus-mission-block .focus-list .focus-mission p {
+    color: #333;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 163.636% */
+}
+
+main .focus-mission-block .focus-list .info-first p{
+    width: 279px
+}
+
+main .focus-mission-block .focus-list .info-two p {
+    width: 420px;
+}
+
+/*---------------------OUR PROJECTS BLOCK------------------*/
+
+main .our-projects-block {
+    flex-direction: column;
+    align-items: start;
+    gap: 60px;
+    margin-bottom: 102px;
+}
+
+main .our-projects-block h2 {
+    color: #BDBDBD;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px; /* 100% */
+}
+
+main .our-projects-block img {
+    display: block;
+}
+
+main .our-projects-block .images {
+    gap: 30px;
+}
+
+/*--------------------------------------------------FOOTER----------------------------------------*/
+
+footer {
+    width: 100vw;
+    height: 329px;
+    background: #2C2C2C;
+}
+
+footer .footer-wrap {
+    display: flex;
+    height: 100%;
+    padding: 58px 0 0;
+}
+
+footer .footer-wrap img {
+    width: 145px;
+    height: 94px;
+}
+
+footer .footer-wrap nav {
+    margin: 23px 0 0 100px;
+}
+
+footer .footer-wrap nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer .footer-wrap nav ul a {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 1px;
+}
+
+footer .footer-wrap p {
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 1px;
+
+    margin: 96px 0 0 216px;
+}

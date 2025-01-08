@@ -367,6 +367,7 @@ header button{
     line-height: 56px; /* 93.333% */
     letter-spacing: -1.034px;
     margin: 22px 0 28px;
+    overflow: hidden;
 }
 .products-plans .plans-cards .card h2 span {
     font-family: "DM Sans", sans-serif;
