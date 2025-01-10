@@ -8,7 +8,11 @@
     text-decoration: none;
 
     color: #1D1D1F;
+    text-align: center;
     font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px; /* 135.45% */
 }
 
 body {
@@ -16,6 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     overflow-x: hidden;
+    background: #F5F5F7;
 }
 
 img {
@@ -41,29 +46,36 @@ img {
 
 /*-------------------HEADER-------------------*/
 header {
+    width: 100%;
     background: white;
-    height: 44px;
-    padding: 0 22px;
-    display: flex;
-    align-items: center;
-}
-
-header img {
-    width: 14px;
 }
 
 header nav {
-    width: 100%;
+    width: 996px;
+    height: 44px;
 }
 
 header nav ul {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 35px;
+}
+
+header nav ul li {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul .logo,
+header nav ul .search,
+header nav ul .bag {
+    align-items: start;
 }
 
 header nav ul li a {
+    height: 16px;
     font-size: 12px;
     font-weight: 450;
 }
@@ -72,7 +84,7 @@ header nav ul li a {
 .products {
     width: 100%;
     padding: 8px 0;
-    background: rgba(245,245,247,.6);
+    background: rgb(248, 248, 248);
     display: flex;
     justify-content: center;
 }
@@ -159,7 +171,7 @@ header nav ul li a {
 }
 
 .animated .info {
-    width: 692px;
+    width: 1037px;
     transform: translateY(50px);
     opacity: 0;
     animation: animated-info-move-top 1s ease-out 1.5s forwards;
@@ -178,19 +190,19 @@ header nav ul li a {
 
 
 .animated .info h1 {
-    text-align: center;
-    font-size: 64px;
-    line-height: 1;
+    height: 79px;
+    font-size: 96px;
     font-weight: 700;
-    font-family: Inter, sans-serif;
+    line-height: 96px; /* 100% */
+    letter-spacing: -1.44px;
 }
 
 .animated .info p {
-    margin: 17px 0 50px;
-    text-align: center;
-    font-size: 21px;
-    line-height: 1;
+    width: 975px;
+    margin: 52px auto 115px;
+
+    color: #86868B;
+    font-size: 22px;
     font-weight: 600;
-    color: #86868b;
-    font-family: Inter, sans-serif;
+    line-height: 28px; /* 129.855% */
 }
