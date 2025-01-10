@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login {
+    width: 400px;
+    height: 280px;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+}
+
+.login header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px 60px;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.login header h2 {
+    font-weight: normal;
+}
+
+.wrap .login section form {
+    padding: 0 60px 0;
+    flex-direction: column;
+}
+
+.wrap .login section form .login-input,
+.wrap .login section form .password-input {
+    width: 100%;
+    display: block;
+    padding: 6px 3px;
+    margin-bottom: 20px;
+}
+
+.wrap .login section form>div {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap .login section form>div button {
+    font-size: 11px;
+    padding: 3px 24px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+.wrap .login section form span {
+    font-size: 14px;
+    width: 120px;
+}
+
+.wrap .login section form .remember-me {
+    width: 140px;
+}
+
+.wrap .login section form input[type="text"]::placeholder,
+.wrap .login section form input[type="password"]::placeholder {
+    font-size: 11px;
+}

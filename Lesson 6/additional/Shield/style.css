@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background: #FFF;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-align-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.wrap {
+    width: 100vw;
+    flex-direction: column;
+}
+
+.w-1272 {
+    width: 1272px;
+}
+
+/*---------------------------------------------------------HEADER---------------------------------*/
+
+header {
+    padding: 30px 0 30px;
+    width: 100%;
+    gap: 526px;
+    background: #F7F8FD;
+}
+
+header .logo {
+    width: 195px;
+    height: 49px;
+}
+
+header nav ul {
+    gap: 40px;
+}
+
+header nav ul li a {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header nav ul li:last-child a {
+    width: 120px;
+    height: 49px;
+    color: #FFF;
+    padding: 11px 35px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #03045E;
+}
+
+/*---------------------------------------------------------MAIN-----------------------------------*/
+main {
+    width: 100%;
+    flex-direction: column;
+    gap: 150px;
+}
+
+/*---------------------TITLE BLOCK-------------------*/
+.title-block {
+    width: 100%;
+    padding: 91px 0 200px;
+    gap: 71px;
+    background: #F7F8FD;
+}
+
+.title-block .title {
+    width: 585px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.title-block .title h1 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px; /* 141.667% */
+}
+
+.title-block .title p {
+    color: rgba(3, 4, 94, 0.50);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.title-block .title button {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    border: none;
+    padding: 17px 38px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #0098FF;
+}
+
+.title-block img {
+    display: block;
+}
+
+/*---------------------SEARCH DOMAIN BLOCK-------------------*/
+.search-domain-block {
+    gap: 69px;
+}
+
+/*------------SEARCH FORM------------*/
+.search-domain-block .search-form {
+    width: 625px;
+    gap: 36px;
+}
+
+.search-domain-block .search-form h3 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.search-domain-block .search-form form input {
+    font-size: 20px;
+    display: block;
+    width: 466px;
+    height: 60px;
+    padding: 0 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #F6F6F6;
+}
+
+.search-domain-block .search-form form input[type="text"]::placeholder {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.search-domain-block .search-form form button {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    border: none;
+    width: 159px;
+    height: 60px;
+    border-radius: 0 5px 5px 0;
+    background: #0098FF;
+    padding: 15px 38px 18px 38px;
+    gap: 10px;
+}
+
+/*------------TLD LIST------------*/
+.search-domain-block .tld-list {
+    width: 586px;
+}
+
+.search-domain-block .tld-list ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 116px;
+    padding-left: 69px;
+    border-left: 1px solid rgba(3, 4, 94, 0.1);
+}
+
+.search-domain-block .tld-list span {
+    display: block;
+}
+
+.search-domain-block .tld-list ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.search-domain-block .tld-list ul li h5 {
+    color: #0098FF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.search-domain-block .tld-list ul li span {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.3;
+}
+
+/*---------------------OUR SERVICE-------------------*/
+.our-service-block {
+    width: 100%;
+    padding: 150px 0;
+    background: #F6F6F6;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.our-service-block h2 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.our-service-block .service-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 80px;
+}
+
+.our-service-block .service-list .card-service {
+    flex-direction: column;
+    gap: 30px;
+    width: 407px;
+    height: 255px;
+}
+
+.our-service-block .service-list .card-service .icon-service {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    background: #F6F6F6;
+}
+.our-service-block .service-list .card-service .icon-service svg {
+    width: 60px;
+    height: 60px;
+}
+
+.our-service-block .service-list .card-service h5 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.our-service-block .service-list .card-service p {
+    color: #03045E;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+/*---------------------CLIENT REVIEW-------------------*/
+.client-review {
+    flex-direction: column;
+}
+
+.client-review h2 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.client-review .reviews-list {
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.client-review .reviews-list .card-review {
+    flex-direction: column;
+    width: 407px;
+    height: 263px;
+    background: #F6F6F6;
+    padding: 50px 40px;
+}
+
+.client-review .reviews-list .card-review p {
+    color: #03045E;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.client-review .reviews-list .card-review h5 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px auto 8px;
+}
+
+.client-review .reviews-list .card-review span {
+    display: block;
+    color: #03045E;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.client-review .carousel svg {
+    width: 100px;
+    height: 8px;
+}
+
+/*---------------------OUR STATISTICS-------------------*/
+.our-statistics {
+    width: 100%;
+    background: #0098FF;
+}
+
+.our-statistics ul {
+    margin: 100px auto;
+    gap: 10px;
+}
+
+.our-statistics ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 297px;
+}
+
+.our-statistics ul li h3 {
+    color: #FFF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.our-statistics ul li p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*---------------------OUR FLEXIBLE PLAN-------------------*/
+.our-flexible-plan {
+    flex-direction: column;
+    gap: 60px;
+}
+
+.our-flexible-plan h2 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*-----------FLEXIBLE CARD----------*/
+
+.our-flexible-plan .flexible-plans-list .card-plan {
+    width: 318px;
+    height: 593px;
+    flex-direction: column;
+    padding: 40px 0 50px;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan h6 {
+    color: #0098FF;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan h3 {
+    color: #03045E;
+    font-family: Ubuntu, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px auto 50px;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan ul li {
+    width: 100%;
+    opacity: 0.5;
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #F7F8FD
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan ul li span {
+    font-weight: 600;
+
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan button {
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 11px 35px;
+    border-radius: 5px;
+    background: #03045E;
+    margin: 50px 0 0;
+    border: none;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan:hover {
+    transition: 0.2s;
+    background: #0098FF;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan:hover h6,
+.our-flexible-plan .flexible-plans-list .card-plan:hover h3,
+.our-flexible-plan .flexible-plans-list .card-plan:hover ul li {
+    opacity: 1;
+    color: #FFF;
+}
+
+.our-flexible-plan .flexible-plans-list .card-plan:hover ul li {
+    border-bottom: 1px solid #FFF;
+}
+
+/*---------------------------------------------------------FOOTER-----------------------------------*/
+footer {
+    width: 100%;
+    margin-top: 150px;
+    background: #F6F6F6;
+}
+
+footer .footer-wrap {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 100px 0 100px;
+    gap: 103px;
+}
+
+footer .logo-info {
+    gap: 24px;
+}
+
+footer .logo-info svg {
+    width: 195px;
+    height: 49px;
+}
+
+footer .logo-info p {
+    width: 297px;
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+footer .quickly-links,
+footer .services-links,
+footer .contact,
+footer .follow-us {
+    width: 187px;
+    gap: 14px;
+}
+
+footer .quickly-links h6,
+footer .services-links h6,
+footer .contact h6 {
+    color: #000;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+footer .quickly-links ul li a,
+footer .services-links ul li a,
+footer .contact .contact-us ul li {
+    color: #03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+    opacity: 0.5;
+}
+
+footer .contact .follow-us ul {
+    display: flex;
+    gap: 20px;
+    margin-left: -5px;
+}
+
+footer .contact .follow-us ul li svg {
+    width: 24px;
+    height: 24px;
+}
+
+/*----------------COPYRIGHT INFO-------------------*/
+aside {
+    width: 100%;
+    height: 98px;
+    gap: 784px;
+}
+
+aside .copyright p {
+    color:#03045E;
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+aside .copyright:first-child {
+    width: 297px;
+}
+
+aside .copyright:last-child {
+    width: 203px;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+span {
+    display: block;
+}
+
+body {
+    background: darkcyan;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-block {
+    flex-direction: column;
+    justify-content: start;
+    width: 360px;
+    height: 500px;
+}
+
+.login {
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 2px;
+    padding: 26px 46px;
+    margin-bottom: 14px;
+}
+
+.login h2 {
+    font-size: 40px;
+    font-family: "Pacifico", sans-serif;
+    margin-bottom: 40px;
+}
+
+.login form input {
+    background: #f4f4f4;
+    width: 100%;
+    padding: 12px 8px;
+    margin-bottom: 6px;
+    border-radius: 2px;
+    border: 1px solid silver;
+}
+
+.login button {
+    width: 100%;
+    margin-top: 8px;
+    color: white;
+    background: #4faaff;
+    border-radius: 10px;
+    padding: 10px 0;
+    border: none;
+    font-weight: bold;
+}
+
+.login h3 {
+    color: #4a4a4a;
+    margin: 20px 0 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.login .facebook-login {
+    margin-bottom: 24px;
+}
+
+.login a .facebook-url {
+    color: #3636ff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.login .facebook-icon svg{
+    width: 16px;
+    height: 16px;
+    margin-bottom: -3px;
+    margin-right: 8px;
+}
+
+.login .forgot-password {
+    font-weight: bolder;
+    font-size: 14px;
+    color: #3636ff;
+}
+
+.sign-in {
+    background: white;
+    padding: 22px 10px;
+    gap: 4px;
+    width: 100%;
+    border: 1px solid silver;
+}
+
+.sign-in h3,
+.sign-in a {
+    font-size: 14px;
+    font-weight: bolder;
+}
+.sign-in a {
+    font-weight: bold;
+}
+

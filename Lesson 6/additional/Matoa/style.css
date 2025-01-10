@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #F7F6F4;
+}
+
+.w-1110 {
+    width: 1110px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    flex-direction: column;
+}
+
+img {
+    display: block;
+}
+
+
+/*-------------------------------------------HEADER-----------------------------*/
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 186px;
+    padding: 42px 0 42px;
+}
+
+header img {
+    display: block;
+    width: 178px;
+    height: 22px;
+}
+
+header nav ul {
+    gap: 40px;
+}
+
+header nav ul li a {
+    height: 34px;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------MAIN-----------------------------*/
+main {
+    width: 100%;
+    flex-direction: column;
+}
+/*-----------------TITLE BLOCK----------------*/
+
+.title-block {
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    justify-content: start;
+    margin: 48px auto 79px;
+    gap: 56px;
+}
+
+.title-block .title-info {
+    flex-direction: column;
+    align-items: start;
+    width: 529px;
+}
+
+.title-block .title-info h1 {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+}
+
+.title-block .title-info p {
+    color: #333;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 32px 0 79px;
+}
+
+.title-block .title-info button {
+    color: #FFF;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    border: none;
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+}
+
+/*-----------------MONTHLY DEALS----------------*/
+
+.monthly-deals {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 132px;
+}
+
+.monthly-deals h2 {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    margin-bottom: 129px;
+}
+
+.monthly-deals ul {
+    gap: 30px;
+}
+
+.monthly-deals ul li {
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.monthly-deals ul li img {
+    position: relative;
+    top: -40px;
+}
+
+.monthly-deals ul li h3 {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+
+/*-----------------RECENT NEWS----------------*/
+
+.recent-news {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 132px;
+}
+
+.recent-news h2 {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    margin-bottom: 43px;
+}
+
+.recent-news>div {
+    justify-content: start;
+    gap: 65px;
+}
+
+.recent-news .recent-info {
+    flex-direction: column;
+    align-items: start;
+    width: 350px;
+}
+
+.recent-news .recent-info p {
+    color: #777;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+}
+
+.recent-news .recent-info h3 {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    margin-top: 16px;
+}
