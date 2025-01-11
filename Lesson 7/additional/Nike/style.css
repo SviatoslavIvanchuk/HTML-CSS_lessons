@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background: #FFF;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.w-1111 {
+    width: 1111px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+/*-------------------------------------------HEADER----------------------------*/
+
+header {
+    height: 132px;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    gap: 60px;
+}
+
+header nav ul {
+    position: relative;
+    height: 21px;
+    width: 260px;
+}
+
+header nav ul li {
+    position: absolute;
+}
+header nav ul .man { left: 105px }
+header nav ul .women { left:  201px }
+
+header nav ul a {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------MAIN----------------------------*/
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 288px;
+}
+
+main .title-bg {
+    width: 100%;
+    background: #FBF6F3;
+}
+
+/*--------------------TITLE------------------*/
+.title-block {
+    padding: 67px 0 172px;
+    display: flex;
+    gap: 46px;
+}
+
+.title-block h1 {
+    width: 336px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 110px 0 23px;
+}
+
+.title-block h2 {
+    color: #AD0306;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 52px;
+}
+
+.title-block ul {
+    gap: 27px;
+    margin-bottom: 62px;
+}
+
+.title-block ul li {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.title-block ul li:nth-child(3n+1) {
+    color: #A19FA0;
+}
+.title-block ul li:nth-child(4) {
+    color: #B93536;
+}
+
+.title-block p {
+    width: 324px;
+    color: #000;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*--------------------BEST SELLERS------------------*/
+.best-sellers-block {
+    flex-direction: column;
+    gap: 39px;
+    margin-bottom: 308px;
+}
+
+.best-sellers-block h2 {
+    color: #142823;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.best-sellers-block ul {
+    gap: 128px;
+}
+
+.best-sellers-block ul li {
+    width: 285px;
+    height: 331px;
+    padding: 20px;
+    border-radius: 32px;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.best-sellers-block ul li .high-rated {
+    position: absolute;
+    top: -30px;
+}
+
+.best-sellers-block ul li:nth-child(2n) .high-rated {
+    display: none;
+}
+
+.best-sellers-block ul li h6 {
+    color: #282828;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.best-sellers-block ul li h4 {
+    color: #106FDF;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-sellers-block ul li:nth-child(2n) h4 {
+    color: #DD152D;
+}

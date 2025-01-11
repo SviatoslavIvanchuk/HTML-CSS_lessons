@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background: #24204A;
+    overflow-x: hidden;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-1168 {
+    width: 1168px;
+}
+
+.wrap {
+    flex-direction: column;
+    justify-content: start;
+    width: 100vw;
+}
+
+/*--------------------------------------------------HEADER---------------------*/
+header {
+    height: 113px;
+    width: 100%;
+    background: #24204A;
+    gap: 580px;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,0.75);
+}
+
+header .logo {
+    color: #E5E5E5;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+header nav ul {
+    gap: 64px;
+}
+
+header nav ul a {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+/*--------------------------------------------------MAIN---------------------*/
+main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/*---------------------TITLE-BLOCK---------------------*/
+
+.title-block {
+    justify-content: start;
+    gap: 208px;
+    margin: 67px auto 101px;
+    position: relative;
+}
+
+.title-block .info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-block .info h3 {
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    padding: 10px 15px;
+
+    text-align: center;
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+}
+
+.title-block .info h1 {
+    width: 261px;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.title-block .info p {
+    width: 570px;
+    height: 85px;
+
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%; /* 20.8px */
+    letter-spacing: 1px;
+}
+
+.title-block .info button {
+    width: 200px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background: #3F50E7;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+}
+
+.title-block .img-bg {
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+.title-block .img-bg,
+.title-block img { position: absolute }
+
+.title-block .img-bg { left: 778px }
+.title-block img { left: 768px; top: 0 }
+
+/*---------------------PRODUCTS BLOCK---------------------*/
+.products-block {
+    width: 100%;
+    background: #071341;
+}
+
+.products-block .content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+/*------ICONS PREFERENCES------*/
+.products-block .icons-preferences ul {
+    gap: 192px;
+    justify-content: start;
+}
+.products-block .icons-preferences ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    position: relative;
+}
+.products-block .icons-preferences ul li:nth-child(1) { background: #FF6853 }
+.products-block .icons-preferences ul li:nth-child(2) { background: #FF537C }
+.products-block .icons-preferences ul li:nth-child(3) { background: #80D2C4 }
+.products-block .icons-preferences ul li:nth-child(4) { background: #3F50E7 }
+.products-block .icons-preferences ul li:nth-child(5) { background: #95CB7C }
+
+.products-block .icons-preferences ul li h5,
+.products-block .icons-preferences ul li p {
+    position: absolute;
+}
+
+.products-block .icons-preferences ul li h5 {
+    top: 5px;
+    left: 75px;
+}
+
+.products-block .icons-preferences ul li p {
+    bottom: 5px;
+    left: 75px;
+}
+
+.products-block .icons-preferences ul li h5 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.products-block .icons-preferences ul li p {
+    color: #8E88C1;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*--------------H2--------------*/
+.products-block h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 116.667% */
+}
+
+/*-------------P-------------*/
+.products-block p {
+    color: #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 1px;
+}
+
+/*-------------CARDS-------------*/
+.products-block .cards ul {
+    justify-content: start;
+    gap: 32px;
+}
+
+.products-block .cards ul li {
+    display: flex;
+    justify-content: center;
+    width: 209px;
+    height: 206px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    position: relative;
+}
+
+.products-block .cards ul li p {
+    color: #8E88C1;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    letter-spacing: 1px;
+}
+
+.products-block .cards ul li svg,
+.products-block .cards ul li p {
+    position: absolute;
+}
+.products-block .cards ul li svg { top: 44px }
+.products-block .cards ul li p { width: 178px; top: 122px }
+
+/*---------------------MAP BLOCK---------------------*/
+main .map-block {
+    background: #071341;
+    width: 100%;
+    height: 664px;
+}
+
+main .map-block iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/*-----------------------------------FOOTER-----------------------------*/
+footer {
+    width: 100%;
+    background: #071341;
+    height: 94px;
+}
+
+footer h6 {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 200%; /* 24px */
+}
