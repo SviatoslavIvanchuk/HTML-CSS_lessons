@@ -29,13 +29,19 @@ body {
     width: 100vw;
 }
 
+button {
+    cursor: pointer;
+}
+
 /*--------------------------------------------------HEADER---------------------*/
 header {
     height: 113px;
-    width: 100%;
+    width: 100vw;
     background: #24204A;
     gap: 580px;
     box-shadow: 0 2px 9px 0 rgba(0,0,0,0.75);
+    position: fixed;
+    z-index: 100;
 }
 
 header .logo {
@@ -60,6 +66,7 @@ header nav ul a {
 
 /*--------------------------------------------------MAIN---------------------*/
 main {
+    margin-top: 113px;
     width: 100%;
     flex-direction: column;
     justify-content: start;

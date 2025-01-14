@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-page {
+    width: 100vw;
+    height: 100vh;
+    background: #161622;
+}
+
+.not-found-block {
+    flex-direction: column;
+    width: 533px;
+    height: 461px;
+}
+
+.not-found-block .circle {
+    position: absolute;
+    border: 48px solid #6F1DF4;
+    opacity: 0.5;
+}
+
+.not-found-block .left-circle {
+    width: 396px;
+    height: 396px;
+    border-radius: 396px;
+    top: -210px;
+    left: -200px;
+}
+
+.not-found-block .right-circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+    top: -20px;
+    right: -120px;
+
+}
+
+.not-found-block h2 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 180px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.not-found-block h3 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+}
+
+.not-found-block p {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 33px auto 40px;
+}
+
+.not-found-block nav {
+    gap: 24px;
+}
+
+.not-found-block nav button {
+    height: 64px;
+    padding: 0 48px;
+    gap: 8px;
+    border-radius: 32px;
+    background: #FFF;
+    transition: 0.2s;
+
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+    cursor: pointer;
+}
+
+.not-found-block nav button:hover {
+    color: snow;
+    background: #6F1DF4;
+    transition: 0.4s;
+}

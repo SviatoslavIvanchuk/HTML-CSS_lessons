@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+
+    .not-found-block {
+        width: 375px;
+        padding: 48px 16px;
+    }
+
+    .not-found-block .circle {
+        display: none;
+    }
+
+    .not-found-block h2 {
+        font-size: 110px;
+    }
+
+    .not-found-block h3 {
+        font-size: 28px;
+    }
+
+    .not-found-block p {
+        font-size: 18px;
+        margin: 17px auto 24px;
+    }
+
+    .not-found-block nav{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .not-found-block nav button {
+        width: 100%;
+    }
+}
