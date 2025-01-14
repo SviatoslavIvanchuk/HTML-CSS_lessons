@@ -10,6 +10,7 @@
 
 body {
     background: #FAF4F2;
+    overflow-x: hidden;
 }
 
 .w-1140 {
@@ -20,4 +21,199 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.wrap-page {
+    width: 100vw;
+    gap: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+/*--------------------------------LOGO BAR-----------------------------------*/
+
+section.logo-bar {
+    display: none;
+    align-items: center;
+    height: 56px;
+}
+
+/*--------------------------------MAIN INFO-----------------------------------*/
+
+main {
+    margin-top: 112px;
+    position: relative;
+}
+
+main h1 {
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+}
+
+main p {
+    width: 509px;
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 7px 0 54px;
+}
+
+main ul.flex-center {
+    justify-content: start;
+    gap: 16px;
+    margin-bottom: 25px;
+}
+
+main ul a svg {
+    transition: 0.5s;
+}
+
+main ul a svg:hover  {
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+main .nav-buttons {
+    justify-content: start;
+    gap: 30px;
+}
+
+main .nav-buttons button {
+    color: #F9F9F9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+    border: none;
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main .nav-buttons button.send-request {
+    background: #FF2950;
+}
+
+main .nav-buttons button.download-cv {
+    color: rgba(34, 34, 34, 0.50);
+    background: none;
+    border: 2px solid #FF9B70;
+}
+
+main img.self-photo {
+    top: -12px;
+    right: 0;
+    position: absolute;
+}
+
+/*--------------------------------SHORT ABOUT ME-----------------------------------*/
+
+section.short-about-me {
+    display: flex;
+    border-radius: 35px;
+    background: #FF7315;
+    min-height: 519px;
+}
+
+section.short-about-me img {
+    width: 430px;
+    height: 329px;
+    margin: 93px 32px 0;
+    display: block;
+}
+section.short-about-me .content {
+    margin-top: 62px;
+    max-width: 570px;
+}
+
+section.short-about-me .content h2 {
+    color: #F9F9F9;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+}
+
+section.short-about-me .content h5 {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px; /* 150% */
+    margin: 16px 0 19px;
+}
+
+section.short-about-me .content h3 {
+    color: #F9F9F9;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+}
+
+section.short-about-me .content p {
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+}
+
+/*--------------------------------WHY HIRE ME-----------------------------------*/
+
+section.why-hire-me {
+    flex-direction: column;
+    gap: 100px;
+}
+
+section.why-hire-me h2 {
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+}
+
+section.why-hire-me ul {
+    gap: 60px;
+}
+
+section.why-hire-me ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.why-hire-me ul li .icon-bg {
+    width: 98px;
+    height: 98px;
+    background: rgba(34, 34, 34, 0.10);
+    border-radius: 50%;
+}
+
+section.why-hire-me ul li h3 {
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+
+    margin: 51px auto 12px;
+}
+
+section.why-hire-me ul li p {
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+/*--------------------------------PORTFOLIO-----------------------------------*/
+section.portfolio {
+    
 }
